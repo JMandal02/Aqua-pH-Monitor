@@ -1,0 +1,58 @@
+🛠️ Components Required
+1. Arduino (e.g., Arduino Uno)
+2. pH Sensor Module
+3. 16x2 LCD Display
+4. 10kΩ Potentiometer (for LCD contrast adjustment)
+5. Jumper Wires
+6. Breadboard (optional for prototyping)
+7. Power Supply (USB cable or battery pack)
+
+
+⚡ Circuit Connections
+1️⃣ LCD Display
+LCD Pin	      Arduino Pin
+   RS	            8
+   EN	            9
+   D4	            10
+   D5	            11
+   D6	            12
+   D7	            13
+   VCC	            5V
+   GND	            GND
+Use a 10kΩ potentiometer to adjust the LCD contrast. Connect its middle pin to the LCD’s VO pin and the other two pins to VCC and GND.
+
+
+2️⃣ pH Sensor Module
+Sensor Pin	     Arduino Pin
+  Signal	       A0
+  VCC	               5V
+  GND	               GND
+
+
+3️⃣ Power Supply
+Connect your Arduino to a USB cable or an external power source.
+
+
+🚀 Uploading the Code
+Step-by-Step Guide
+1. Download Arduino IDE
+   Get the latest Arduino IDE from arduino.cc.
+2. Connect Your Arduino
+   Plug in your Arduino board to your computer using a USB cable.
+3. Open the Code
+   Clone or download this repository.
+   Open the .ino file in the Arduino IDE.
+4. Configure Settings
+   Go to Tools > Board and select your Arduino model (e.g., Arduino Uno).
+   Go to Tools > Port and select the correct COM port.
+5. Verify & Upload
+   Click Verify (✔️) to compile the code.
+   Click Upload (➡️) to program the Arduino.
+6. Monitor in Action
+   Once uploaded, the device will display the pH value on the LCD and print it in the Serial Monitor.
+
+
+🧩 Additional Notes
+1. Calibration: Calibrate the pH sensor for accurate readings.
+2. Power Supply: Use a reliable power source to avoid interruptions.
+3. Troubleshooting: Ensure all connections are secure and check for any loose wires.
